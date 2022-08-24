@@ -9,6 +9,7 @@ public class main {
         //app.triangleBuilder();
         //app.hollowBox();
         //app.hollowTriangle();
-        app.triangleNumber();
+        //app.triangleNumber();
+        //app.powerOfTwo();
     }
 }

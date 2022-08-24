@@ -114,4 +114,13 @@ public class Loop {
         System.out.println("The triangle number for " + num + " is " + count);
         System.out.println("The expected number is " + (num * (num + 1)) / 2);
     }
+    public void powerOfTwo()
+    {
+        int num = 1;
+        while (num<66000)
+        {
+            System.out.println(num);
+            num *= 2;
+        }
+    }
 }
