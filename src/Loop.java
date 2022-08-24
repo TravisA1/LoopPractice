@@ -69,4 +69,34 @@ public class Loop {
             layer++;
         }
     }
+    public void hollowTriangle()
+    {
+        int layer = 0;
+        System.out.print("Give me the height. ");
+        int num = keyboardreader.nextInt();
+        for (int i=0;i<num;i++)
+        {
+            for (int j=0;j<(num-1)-layer;j++)
+            {
+                System.out.print(" ");
+            }
+            if (layer == num-1)
+            {
+                for (int j=0;j<2*num;j++)
+                {
+                    System.out.print("-");
+                }
+            }
+            else
+            {
+                System.out.print("/");
+                for (int j=0;j<2*layer;j++)
+                {
+                    System.out.print(" ");
+                }
+                System.out.println("\\");
+            }
+            layer++;
+        }
+    }
 }

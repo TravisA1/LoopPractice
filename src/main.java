@@ -7,6 +7,7 @@ public class main {
         //app.starPrinter();
         //app.boxPrinter();
         //app.triangleBuilder();
-        app.hollowBox();
+        //app.hollowBox();
+        app.hollowTriangle();
     }
 }
