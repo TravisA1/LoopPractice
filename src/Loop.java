@@ -28,4 +28,19 @@ public class Loop {
             System.out.println("*");
         }
     }
+    public void triangleBuilder()
+    {
+        int lim = 0;
+        System.out.print("Give me the leg lengths. ");
+        int num = keyboardreader.nextInt();
+        for (int i=0;i<num;i++)
+        {
+            for (int j=0;j<lim;j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println("*");
+            lim++;
+        }
+    }
 }

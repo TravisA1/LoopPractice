@@ -5,6 +5,7 @@ public class main {
         Loop app = new Loop();
         System.out.println("Running app.");
         //app.starPrinter();
-        app.boxPrinter();
+        //app.boxPrinter();
+        app.triangleBuilder();
     }
 }
