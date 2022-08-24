@@ -6,6 +6,7 @@ public class main {
         System.out.println("Running app.");
         //app.starPrinter();
         //app.boxPrinter();
-        app.triangleBuilder();
+        //app.triangleBuilder();
+        app.hollowBox();
     }
 }

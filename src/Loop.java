@@ -43,4 +43,30 @@ public class Loop {
             lim++;
         }
     }
+    public void hollowBox()
+    {
+        int layer = 1;
+        System.out.print("Give me the side length. ");
+        int num = keyboardreader.nextInt();
+        for (int i=0;i<num;i++)
+        {
+            if (layer == 1 | layer == num)
+            {
+                for (int j=1;j<num;j++)
+                {
+                    System.out.print("*");
+                }
+            }
+            else
+            {
+                System.out.print("*");
+                for (int j=0;j<num-2;j++)
+                {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println("*");
+            layer++;
+        }
+    }
 }
