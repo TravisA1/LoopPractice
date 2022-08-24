@@ -4,6 +4,7 @@ public class main {
         System.out.println("Creating runner.");
         Loop app = new Loop();
         System.out.println("Running app.");
-        app.run();
+        //app.starPrinter();
+        app.boxPrinter();
     }
 }

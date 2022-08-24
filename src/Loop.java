@@ -6,13 +6,26 @@ public class Loop {
     {
         keyboardreader = new Scanner(System.in);
     }
-    public void run()
+    public void starPrinter()
     {
         System.out.print("Give a number. ");
         int num = keyboardreader.nextInt();
         for (int i=0;i<num;i++)
         {
             System.out.print("*");
+        }
+    }
+    public void boxPrinter()
+    {
+        System.out.print("Give me another number. ");
+        int num = keyboardreader.nextInt();
+        for (int i=0;i<num;i++)
+        {
+            for (int j=0;j<num-1;j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println("*");
         }
     }
 }
