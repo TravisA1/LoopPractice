@@ -99,4 +99,19 @@ public class Loop {
             layer++;
         }
     }
+    public void triangleNumber() {
+        int lim = 0;
+        int count = 0;
+        System.out.print("Give me the leg lengths. ");
+        int num = keyboardreader.nextInt();
+        for (int i = 0; i < num; i++) {
+            for (int j = 0; j < lim; j++) {
+                count++;
+            }
+            count++;
+            lim++;
+        }
+        System.out.println("The triangle number for " + num + " is " + count);
+        System.out.println("The expected number is " + (num * (num + 1)) / 2);
+    }
 }

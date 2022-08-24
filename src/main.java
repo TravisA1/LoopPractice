@@ -8,6 +8,7 @@ public class main {
         //app.boxPrinter();
         //app.triangleBuilder();
         //app.hollowBox();
-        app.hollowTriangle();
+        //app.hollowTriangle();
+        app.triangleNumber();
     }
 }
